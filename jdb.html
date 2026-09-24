@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jdb banner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+
+  <style>
+    #back {
+      background-color: rgb(224, 247, 248);
+
+    }
+
+    /* header start */
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-header {
+      background-color: white;
+      padding: 8px 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .main-header .logo-menu .logo img {
+      height: 35px;
+    }
+
+    .main-header .logo-menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .main-header .logo-menu .menu ul {
+      display: flex;
+      list-style: none;
+      margin-left: 30px;
+    }
+
+    .menu ul li {
+      padding: 0px 12px;
+
+    }
+
+    .batn button {
+      width: 80%;
+      margin-left: 40px;
+      background-color: rgb(97, 97, 205);
+      color: white;
+      border-radius: 10px;
+      padding: 5px;
+      /* header start...................................... */
+    }
+
+    .banner {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvkHsAqMlaCa14jYUceMrCcM1MGwKsS1SNZnW1PCD1g&s=10);
+      height: 500px;
+    }
+
+    .banner-text {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .banner-text .text button {
+      margin: 60px 40px;
+      margin-left: 80px;
+      margin-bottom: 0px;
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+      padding: 5px;
+      font-weight: bold;
+    }
+
+    .banner-text .text h1 {
+      color: black;
+      margin-left: 80px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 50px;
+    }
+
+    .banner-text .text p {
+      margin-top: -10px;
+      margin-left: 80px;
+      padding-top: 20px;
+      line-height: 27px;
+
+
+
+    }
+
+    .bt {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .bt .co button {
+      margin-top: -2px;
+      padding: 15px;
+      border-radius: 10px;
+
+    }
+
+    .bt .ex button {
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: -2px;
+      margin-left: -25px;
+    }
+
+    /* .banner-text .text .bt button{
+
+          .banner-text .box{
+            background-color: white;
+            margin-top: 80px;
+            margin-left: 100px;
+            width: 30%;
+            height: 350px;
+            border-radius: 14px;
+
+
+          /* } */
+    .right {
+
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 15px;
+
+
+    }
+
+    .right .le p {
+      margin-top: -5px;
+    }
+
+    .right .ce p {
+      margin-left: -1px;
+      margin-top: -5px;
+    }
+
+    .right .pe p {
+      margin-left: -1px;
+      margin-top: -5px;
+    }
+
+    .box {
+
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 70px;
+      margin-left: 60px;
+      background-color: white;
+      border-radius: 10px;
+      height: 400px;
+      width: 30%;
+
+
+
+    }
+
+    .box .box1 {
+      background-color: aliceblue;
+      height: 100px;
+      width: 90%;
+      margin: 15px;
+      margin-bottom: 0px;
+      margin-top: 10px;
+      border-radius: 10px;
+
+
+    }
+
+    .box .box1 h1,
+    p {
+      margin-left: 10px;
+    }
+
+    .box .box2 {
+      background-color: aliceblue;
+      height: 100px;
+      width: 90%;
+      margin-top: -30px;
+      margin-left: 15px;
+      border-radius: 10px;
+
+    }
+
+    .box .box2 h1,
+    p {
+      margin-left: 10px;
+
+    }
+
+    .box .box3 {
+      background-color: aliceblue;
+      height: 100px;
+      width: 90%;
+      margin-top: -30px;
+      border-radius: 10px;
+      margin-left: 15px;
+
+
+    }
+
+
+    /* banner start..................................... */
+    /* text start..................................... */
+    .box-live {
+      background-color: white;
+      color: rgb(84, 84, 239);
+      margin-top: 40px;
+      height: 150px;
+      width: 90%;
+      margin-left: 60px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      justify-content: center;
+    }
+
+
+
+
+
+    .box-live {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 15px;
+      height: 130px;
+      margin-bottom: 30px;
+
+    }
+
+    .box-live .live {
+      margin: 30px;
+      margin-left: 50px;
+      margin-top: 30px;
+
+
+    }
+
+    .box-live .live b {
+      margin-left: -20px;
+    }
+
+    .box-live .expert {
+      margin: 30px;
+      margin-left: 50px;
+      margin-top: 30px;
+
+    }
+
+    .box-live .expert b {
+      margin-left: -10px;
+    }
+
+    .box-live .flex {
+      margin: 30px;
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+
+    .box-live .flex b {
+      margin-left: -20px;
+    }
+
+    .box-live .career {
+      margin: 30px;
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+
+    .box-live .career b {
+      margin-left: -10px;
+    }
+
+    /* text end..................................... */
+
+    /* choose course */
+
+    .inter {
+      background-color: white;
+      color: black;
+      margin-left: 60px;
+      width: 90%;
+      height: 200px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .inter h1 {
+      padding-top: 20px;
+      margin-left: 20px;
+    }
+
+    .btn {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .btn button {
+      padding: 15px;
+      margin: 15px auto;
+      width: 32%;
+      background-color: rgb(224, 247, 248);
+      color: black;
+      border-radius: 12px;
+    }
+
+    /* choose course */
+
+    .top {
+      background-color: white;
+      color: black;
+      width: 90%;
+      height: 630px;
+      margin-top: 40px;
+      margin-left: 60px;
+      margin-bottom: 20px;
+      border-radius: 30px;
+
+    }
+
+    .top h1 {
+      margin-top: 30px;
+      padding-top: 30px;
+      margin-left: 320px;
+    }
+
+    .top h2 {
+      padding-top: 20px;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .top p {
+      padding: 10px;
+      margin-top: -8px;
+      font-size: 15px;
+      margin-left: 12px;
+
+    }
+
+    .top .web button {
+      margin-left: 10px;
+      justify-content: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgb(224, 247, 248);
+      border-radius: 10px;
+    }
+
+    .dev {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 300px;
+      margin-left: 20px;
+      margin-top: 30px;
+
+      background-color: white;
+
+    }
+
+    .dev .dursan {
+      background-color: rgb(224, 247, 248);
+      width: 28%;
+      height: 250px;
+      border-radius: 15px;
+    }
+
+    .dev .dursan b,
+    p {
+      margin-left: 20px;
+      margin-top: 20px;
+
+    }
+
+    .dev .tech {
+      background-color: rgb(224, 247, 248);
+      width: 28%;
+      height: 250px;
+      margin-left: 15px;
+      border-radius: 20px;
+    }
+
+    .dev .tech b {
+      margin-left: 20px;
+      margin-top: 20px;
+
+
+    }
+
+    .dev .tech ul {
+      margin-left: 40px;
+      margin-top: 10px;
+      color: rgb(129, 118, 118);
+    }
+
+    .dev .project {
+      background-color: rgb(224, 247, 248);
+      width: 28%;
+      height: 250px;
+      margin-left: 15px;
+      border-radius: 20px;
+
+    }
+
+    .dev .project b {
+      margin-left: 20px;
+      margin-top: 20px;
+
+    }
+
+    .dev .project ul {
+      margin-left: 40px;
+      margin-top: 10px;
+      color: rgb(129, 118, 118);
+    }
+
+    .out {
+      background-color: rgb(98, 98, 236);
+      color: white;
+      width: 90%;
+      margin-left: 50px;
+      height: 100px;
+      border-radius: 20px;
+      margin-top: -25px;
+
+    }
+
+    .out h3 {
+      margin-left: 20px;
+      font-size: 25px;
+
+
+    }
+
+    .out p {
+      margin-top: 2px;
+      margin-left: 2px;
+
+    }
+
+    /* chooes..............................................  */
+
+    .lim {
+      background-color: white;
+      height: 150px;
+      width: 90%;
+      margin-left: 60px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      justify-content: center;
+
+    }
+
+    .lim h1 {
+      margin-left: 350px;
+      margin-top: 30px;
+      padding-top: 20px;
+    }
+
+    .lim p {
+      font-size: 15px;
+      margin-top: -1px;
+      margin-left: 330px;
+
+    }
+
+    .lim button {
+      background-color: rgb(106, 106, 216);
+      color: white;
+      margin-left: 400px;
+      margin-top: 20px;
+      justify-content: center;
+      padding: 15px;
+      border-radius: 10px;
+      width: 20%;
+
+    }
+
+    /* lim.......................................... */
+    .dem h4 {
+      font-size: 30px;
+      margin-left: 400px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
+
+    .dem p {
+      margin-top: 8px;
+      margin-left: 250px;
+    }
+
+    /* dem.................................. */
+    .free-box {
+      display: flex;
+      flex-wrap: wrap;
+      height: 500px;
+      width: 100%;
+    }
+
+    .free-box .free {
+      background-color: white;
+      height: 450px;
+      width: 33%;
+      margin-top: 30px;
+      margin-left: 60px;
+      border-radius: 20px;
+
+    }
+
+    .free-box .gallery {
+      background-color: white;
+      height: 450px;
+      width: 55%;
+      margin-top: 30px;
+      margin-left: 30px;
+      border-radius: 20px;
+
+
+
+    }
+
+    .free {
+      display: flex;
+      flex-direction: column;
+    }
+    .free .btt button{
+      margin-left: 120px;
+      margin-top: 20px;
+      background-color: rgb(93, 93, 210);
+      color: white;
+      border-radius: 20px;
+      padding: 10px;
+
+    }
+
+    .free .blue {
+      height: 110px;
+      width: 100%;
+      background-color: rgb(112, 112, 204);
+      color: white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      margin-top: -5px;
+
+    }
+
+    .blue h2 {
+      margin-left: 18px;
+      margin-top: 5px;
+      padding-top: 10px;
+    }
+
+    .blue p {
+      font-size: 15px;
+      margin-top: 10px;
+
+    }
+
+    .free .vedio {
+      background-color: rgb(21, 135, 235);
+      width: 100%;
+      height: 200px;
+    }
+
+    .gallery2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .gallery2 .gall b {
+      font-size: 30px;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding-top: 20px;
+    }
+
+    .gallery2 .gall2 button {
+      margin: 30px;
+      padding: 8px;
+      background-color: rgb(93, 93, 218);
+      width: 60%;
+      border-radius: 10px;
+    }
+
+    .gallery2 p {
+      margin-top: -50px;
+    }
+
+
+    .gallery3 {
+      display: flex;
+      flex-wrap: wrap;
+
+      width: 100%;
+    }
+
+    .gallery3 .a1 {
+      width: 28%;
+      border-radius: 20px;
+    }
+
+    .gallery3 .a1 img {
+      width: 95%;
+      margin-top: 3px;
+      margin-left: 20px;
+      padding: 10px;
+      border-radius: 20px;
+
+    }
+
+    .dot .span i {
+      height: 200px;
+      justify-content: center;
+    }
+
+    /* dot.............................................. */
+
+
+    .entry {
+      display: flex;
+      flex-wrap: wrap;
+      height: 500px;
+    }
+
+    .entry .map {
+      height: 400px;
+      width: 40%;
+      margin-left: 60px;
+      margin-top: 20px;
+
+    }
+
+
+    #form {
+      background-color: white;
+      height: 400px;
+      width: 40%;
+      margin-left: 600px;
+      margin-top: -440px;
+      padding-top: 25px;
+      padding-left: 30px;
+      line-height: 34px;
+      font-size: 20px;
+      color: rgb(54, 47, 47);
+      border-radius: 10px;
+    }
+
+    .input {
+      width: 80%;
+      margin-left: -2px;
+      font-size: 17px;
+      height: 22px;
+      font-weight: 400;
+      border-radius: 5px;
+      border-color: rgb(53, 50, 50);
+    }
+
+
+    #submit {
+      width: 90%;
+
+      font-size: 20px;
+      color: white;
+      border-radius: 40px;
+      margin-left: -4px;
+      text-align: center;
+      height: 37px;
+
+    }
+
+
+    .student {
+      display: flex;
+      flex-wrap: wrap;
+      height: 820px;
+      width: 100%;
+    }
+
+    .st1 {
+      background-color: white;
+      color: black;
+      height: 780px;
+      width: 40%;
+      margin-left: 60px;
+      margin-top: 20px;
+      border-radius: 10px;
+
+    }
+
+    .st1 h1 {
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .st1 p {
+      font-size: 13px;
+      margin-top: -0px;
+
+    }
+
+    .st1 b {
+      font-size: 12px;
+      margin-top: 5px;
+      margin-left: 5px;
+
+
+    }
+
+    #video {
+      margin-top: 20px;
+    }
+
+    .vd {
+      width: 100%;
+      height: 650px;
+    }
+
+
+
+
+
+    .st2 {
+      display: grid;
+      height: 780px;
+      width: 40%;
+      margin-top: 20px;
+
+    }
+
+    .apply {
+      background-color: rgb(105, 105, 197);
+      color: white;
+      height: 360px;
+      margin-left: 30px;
+      width: 100%;
+      border-radius: 10px;
+
+    }
+
+    .apply h4 {
+      font-size: 25px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .apply p {
+      font-size: 13px;
+      margin-top: -0px;
+
+    }
+
+    .apply ul {
+      margin-left: 30px;
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    .max {
+      background-color: rgba(255, 255, 255, 0.29);
+      color: black;
+      height: 90px;
+      width: 90%;
+      margin-left: 20px;
+      margin-top: 5px;
+      border-radius: 10px;
+    }
+
+    .max h6 {
+      font-size: 20px;
+    }
+
+    .max p {
+      margin-top: 5px;
+      font-size: 14px;
+
+    }
+
+
+    .intership {
+      background-color: rgb(105, 105, 197);
+      color: white;
+      height: 440px;
+      margin-left: 30px;
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 10px;
+
+    }
+
+    .intership h5 {
+      font-size: 25px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .intership p {
+      font-size: 12.5px;
+      margin-top: -0px;
+    }
+
+    .intership ul {
+      margin-left: 30px;
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    .rating {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .rating .rat1 {
+      background-color: rgba(255, 255, 255, 0.29);
+      color: black;
+      height: 70px;
+      width: 45%;
+
+      margin-top: 10px;
+      margin-left: 13px;
+      border-radius: 10px;
+    }
+
+    .rat1 h1 {
+      margin-top: 5px;
+      margin-left: 50px;
+
+
+    }
+
+    .rat1 p {
+      margin-left: 45px;
+
+
+    }
+
+    .rating .rat2 {
+      background-color: rgba(255, 255, 255, 0.29);
+      color: black;
+      height: 70px;
+      width: 45%;
+      margin-top: 10px;
+      margin-left: 20px;
+      border-radius: 10px;
+    }
+
+    .rat2 h1 {
+      margin-top: 5px;
+      margin-left: 30px;
+    }
+
+    .rat2 p {
+      margin-left: 45px;
+    }
+
+    .jounry {
+      background-color: rgba(255, 255, 255, 0.29);
+      color: black;
+      width: 90%;
+      height: 90px;
+      margin-left: 20px;
+      margin-top: 10px;
+      border-radius: 10px;
+
+    }
+
+    .jounry h2 {
+      margin-top: 5px;
+      margin-left: 5px;
+
+    }
+
+    .jounry p {
+      font-size: 13px;
+      margin-top: 5px;
+    }
+  </style>
+
+
+  <section id="back">
+    <!-- header-start............................................ -->
+    <div class="main-header">
+      <div class="logo-menu">
+        <div class="logo">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66knhyLQ3QHuZu2Gd-BYxF99o3jrY7gIh-Ru5KpmWSQ&s=10" />
+
+        </div>
+        <div class="menu">
+          <ul>
+            <li> About</li>
+            <li> Services</li>
+            <li>Our Programs</li>
+            <li>Internship & Certificate</li>
+            <li>Our Team</li>
+            <li>Blogs</li>
+            <li>Free Notes</li>
+            <li>Contact</li>
+
+
+          </ul>
+
+        </div>
+        <div class="batn">
+          <button>Profile</button>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- header-end....................................... -->
+    <!-- banner start.............................................. -->
+    <div class="banner">
+      <div class="banner-text">
+        <div class="text">
+          <button># Trusted Internship Institute Jaipur</button>
+          <h1>Start Your Career With</h1>
+          <h1 style="color: blue;">Real Internship Training</h1>
+          <p>Learn practical skills with live projects, expert trainers,<br />
+            internship certificate and placement guidance for<br /> students, freshers and job seekers.</p>
+
+          <div class="bt">
+            <div class="co"><button style="background-color: rgb(68, 68, 216);">Apply Intership</button></div>
+            <div class="ex"> <button>Explor Course</button></div>
+
+          </div>
+          <div class="right">
+            <div class="le">
+              <p><span><i class="fas fa-check"></i></span> Live Projects</p>
+            </div>
+            <div class="ce">
+              <p><span><i class="fas fa-check"></i></span>Certificate</p>
+            </div>
+            <div class="pe">
+              <p> <span><i class="fas fa-check"></i></span>Placement Help</p>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+        <div class="box">
+          <div class="box1">
+            <h1 style="color: blue;">15K+</h1>
+            <P>Students Trained</P>
+
+
+          </div>
+          <div class="box2">
+            <h1 style="color: blue;">14+ Years</h1>
+            <P>Teaching Experience</P>
+
+
+          </div>
+          <div class="box3">
+            <h1 style="color: blue;">100%</h1>
+            <p>Practical Learning</p>
+
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <!-- banner end........................................... -->
+    <!-- text start .....................................-->
+    <div class="box-live">
+      <div class="live">
+        <h1>Live</h1>
+        <b style="color: rgb(57, 54, 54); ">Project Based Learning</b>
+
+      </div>
+      <div class="expert">
+        <h1>Expert</h1>
+        <b style="color: rgb(57, 54, 54);">Industry Mentors</b>
+
+      </div>
+      <div class="career">
+        <h1>Career</h1>
+        <b style="color: rgb(57, 54, 54);">Resume Support</b>
+
+      </div>
+      <div class="flex">
+        <h1>Flexible</h1>
+        <b style="color: rgb(57, 54, 54);">Online / Offline Batches</b>
+
+      </div>
+
+    </div>
+
+    <!-- text end........................ -->
+
+    <!-- choose course.............................. -->
+
+    <div class="inter">
+      <h1>Why Choose Our Internship?</h1>
+      <div class="btn">
+        <button>✔ Live Projects Experience</button>
+        <button>✔ Internship Certificate</button>
+        <button>✔ Expert Trainers</button>
+        <button style="margin-top: -10px;">✔ Resume Support</button>
+        <button style="margin-top: -10px;">✔ Interview Preparation</button>
+        <button style="margin-top: -10px;">✔ Affordable Fees</button>
+
+
+
+      </div>
+    </div>
+
+
+    <!-- choose course end...................................... -->
+    <div class="student">
+
+      <div class="st1">
+        <h1>🎤 Student Testimonials</h1>
+        <p>Hear directly from our students who completed internships and improved their technical skills, confidence and
+          career opportunities with JDB Infotech.</p>
+        <div id="video">
+          <video class="vd" controls muted loop>
+            <source src="https://jdbinfotech.co.in/assets/student_testomonial_video-BJVmEY2w.mp4" type="video/mp4">
+          </video>
+        </div>
+
+
+        <b>Real student feedback • Practical learning • Career growth</b>
+
+
+      </div>
+      <div class="st2">
+        <div class="apply">
+          <h4>🚀 Who Can Apply?</h4>
+          <p>This internship program is designed for learners who want practical knowledge, live project exposure and
+            career-ready skills in the IT industry.</p>
+          <ul>
+
+            <li>✔ BCA / MCA / B.Tech Students</li>
+            <li>✔ Final Year College Students</li>
+            <li>✔ Freshers Looking For Experience</li>
+            <li>✔ Freelancers & Self Learners</li>
+            <li>✔ Career Switch Learners </li>
+            <li>✔ Job Seekers Wanting Practical Skills</li>
+            <li>✔ Startup Owners & Entrepreneurs</li>
+            <li>✔ Anyone Interested in IT Careers</li>
+
+
+
+
+
+
+          </ul>
+          <div class="max">
+            <h6>🎯 Why Join Now?</h6>
+            <p>Gain certificate, portfolio projects, interview preparation and expert mentorship to grow faster in your
+              career.</p>
+
+
+
+
+          </div>
+        </div>
+        <div class="intership">
+          <h5>🌟 Why Choose Our Internship?</h5>
+          <p>Our internship program helps students gain practical skills, confidence, real project experience and
+            guidance required to enter today’s competitive IT industry.</p>
+          <ul>
+            <li>✔ 100% Practical Project Based Training</li>
+            <li>✔ Daily Mentor Support & Doubt Solving</li>
+            <li>✔ Latest Industry Tools & Technologies</li>
+            <li>✔ Resume + Interview Preparation</li>
+            <li>✔ Internship Completion Certificate</li>
+            <li>✔ Online / Offline Flexible Batches</li>
+            <li>✔ Portfolio Development Guidance</li>
+            <li>✔ Career Growth Opportunities</li>
+
+          </ul>
+
+          <div class="rating">
+            <div class="rat1">
+              <h1>15k+</h1>
+              <p>Students Guided</p>
+
+            </div>
+            <div class="rat2">
+              <h1>14+ Years</h1>
+              <p>Teaching Experience</p>
+
+            </div>
+          </div>
+          <div class="jounry">
+            <h2>🚀 Start Your Journey</h2>
+            <p>Learn job-ready skills, create real projects and build a strong future with expert guidance from day one.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--     --->
+    <div class="top">
+      <h1>Our Top Internship Programs</h1>
+      <center>
+        <div class="web">
+          <button style="background-color: rgb(95, 95, 208);">web Development</button>
+          <button> Mern Stack</button>
+          <button>App Development</button>
+          <button> Digital Marketing</button>
+        </div>
+      </center>
+      <h2>Web Development</h2>
+      <p>Learn complete website development from basic to advanced with real live projects and responsive design.</p>
+      <div class="dev">
+        <div class="dursan">
+          <b><big>⏳ Duration</big></b>
+          <p style="margin-left: 20px;">45 Day</p>
+
+
+
+        </div>
+        <div class="tech">
+          <b><big>🛠 Technologies</big></b>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+            <li>API Integration</li>
+
+
+
+
+          </ul>
+
+
+        </div>
+        <div class="project">
+          <b><big>💡 Projects</big></b>
+          <ul>
+            <li>Portfolio Website</li>
+            <li>Business Website</li>
+            <li>Blog Website</li>
+            <li>Admin Panel</li>
+
+
+
+          </ul>
+
+
+        </div>
+
+      </div>
+      <div class="out">
+        <h3>career Outcome</h3>
+        <p style="margin-top: -7px; margin-left: 10px; ">Students can apply for Frontend Developer and Web Designer
+          roles.</p>
+
+
+      </div>
+
+    </div>
+    <!-- chooes...................................... -->
+    <div class="lim">
+      <h1>Limited Seats Available</h1>
+      <p>Join our upcoming internship batch and start building your future.</p>
+      <button>Book Your Seat</button>
+
+    </div>
+
+    <!-- lim................................................... -->
+    <div class="dem">
+      <h4>Our Gallery & Course Demo</h4>
+      <p>Explore our classrooms, student activities, placements, live projects, seminars and watch our demo course.</p>
+
+    </div>
+    <!-- dem........................................... -->
+
+    <div class="free-box">
+      <div class="free">
+        <div class="blue">
+          <h2>Free Course Demo</h2>
+          <p>Learn HTML, CSS, JavaScript, React, Node.js, MongoDB, Digital Marketing and much more.</p>
+
+        </div>
+        <div class="blue2" style="height: 270px; width: 100%;">
+
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/g60FS5Uhtdc?si=i1w5SgYCNIJPzs65"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="btt">
+          <button>watch on vedio</button>
+
+
+      </div>
+
+      </div>
+      
+
+
+
+    
+     
+
+
+      <div class="gallery">
+
+        <div class="gallery2">
+          <div class="gall">
+            <b>Our Gallery</b>
+
+          </div>
+          <div class="gall2">
+            <button>6 Photos</button>
+
+          </div>
+          <p>Campus • Students • Placements • Live Classes</p>
+
+        </div>
+
+        <div class="gallery3">
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+          <div class="a1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ZZIvdNcBki0BxjyGSO3kE3mn7gkhh2un8Qi4ZlLlA&s=10" />
+          </div>
+
+
+        </div>
+
+        <center>
+
+          <div class="dot">
+            <span><i class="fas fa-ellipsis-h"></i><i class="fas fa-ellipsis-h"></i><i
+                class="fas fa-ellipsis-h"></i></span>
+
+          </div>
+
+        </center>
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+    <!-- dot.................................................................... -->
+
+
+    <div class="entry">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.6793404851906!2d75.73371447321895!3d26.94537827662767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa71ea5fb9d3b1c75%3A0x5705b237e98201e4!2sJDB%20Infotech%20-%20Web%20Development%20%26%20Digital%20Marketing%20Institute!5e0!3m2!1sen!2sin!4v1789888164401!5m2!1sen!2sin"
+          width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+
+
+      <div id="form">
+
+        <h1>Enroll Now</h1><br>
+        <label for="">Full name</label><br>
+        <input class="input" type="text" name="" id="" placeholder="Enter Full Name"><br>
+        <label for="">Mobile no.</label><br>
+        <input class="input" type="text" name="" id="" placeholder="Enter Mobile No."><br>
+        <label for="">Email Address</label><br>
+        <input class="input" type="email" placeholder="Enter Email Address"><br>
+        <label for="">Choose course</label><br>
+        <select class="input" name="" id="">
+          <option value="">--choose course--</option>
+        </select><br>
+        <button id="submit" style="background-color: rgb(95, 95, 209);">Submit</button>
+      </div>
+    </div>
+
+
+  </section>
+
+</body>
+
+</html>
